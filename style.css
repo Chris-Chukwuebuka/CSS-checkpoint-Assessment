@@ -1,0 +1,70 @@
+body{
+background-image: radial-gradient(circle,rgba(131,58,180,1)0%,rgba(253,29,1)50%,rgba(252,176,69,1)100%);} 
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav,a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 50px;
+
+}
+nav,a:hover{
+    color: #ffff;
+    cursor: pointer;
+}
+.name{
+     font-size: 25px;
+     color: #fff;
+}
+.sidebyside{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 10px;
+    padding-top: 10px;
+}
+.Bio{
+    width: 600px;
+    height: 300px;
+    padding-top: 60px;
+}
+.High{
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+.Low{
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Bio p{
+    font-size: 1.2rem;
+    text-align: start;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 600px;
+    height:300px;
+}
+.Tap {
+    margin-top: -90px;
+    display: flex;
+    gap: 40px;
+}
+.Tap button{
+    width: 120px;
+    height: 50px;
+    border: 2px solid rgb(129, 129, 127) ;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Tap button:hover{
+    cursor: pointer;
+    background-color: chocolate;
+    color: #fff;
+}
